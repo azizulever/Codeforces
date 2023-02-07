@@ -3,14 +3,23 @@ using namespace std;
 
 int main()
 {
-    int m, n, a, sum, sum2;
+    long long m, n, a, sum, sum2;
     cin >> m >> n >> a;
-    
-    sum = (n*m) - (a*a);
-    sum2 = sum - (a*a);
 
-    
-    cout << sum2;
+    if (m % a == 0) {
+        sum = (m / a);
+    }
+    else {
+        sum = (m/a) + 1;
+    }
 
+    if(n % a == 0) {
+        sum2 = (n/a);
+    }
+    else{
+        sum2 = (n / a) + 1;
+    }
+
+    cout << sum * sum2;
     return 0;
 }
