@@ -14,7 +14,7 @@ int32_t main() {
     for0 {
         cin >> elem;
         v.pb(elem);
-    }
+    } 
 
     sort(v.begin(), v.end());
     for(auto elem : v) {
