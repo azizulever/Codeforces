@@ -8,12 +8,7 @@
 using namespace std;
 
 int32_t main() {
-int n; cin>>n;
-
-       if (n==15 || n==20 || n==21)
-            cout << "NO" << nl;
-       else
-            cout<<"YES\n";
-            
-return 0;
+	cout << "security" << nl;
+	
+	return 0;
 }
